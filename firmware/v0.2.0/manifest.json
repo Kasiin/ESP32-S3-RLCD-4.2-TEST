@@ -1,0 +1,23 @@
+{
+  "version": "v0.2.0",
+  "chip": "esp32s3",
+  "flash": "16MB DIO 40MHz",
+  "psram": "8MB Octal 40MHz",
+  "esp_idf": "v5.5.5",
+  "provenance": "Original hardware-tested touch v2 artifacts, preserved byte-for-byte; standalone source layout compiled separately.",
+  "upstream": "https://github.com/LinIT-L/ESP32-S3-RLCD-BBK",
+  "upstream_commit": "1c0549206f128c311103f374ee46c38b95229c91",
+  "offsets": {
+    "bootloader.bin": "0x0",
+    "partition-table.bin": "0x8000",
+    "rlcd_hardware_test.bin": "0x10000",
+    "rlcd-hardware-test-v0.2.0-merged.bin": "0x0"
+  },
+  "merged_warning": "Merged image overwrites NVS/PHY padding; prefer split images for upgrades.",
+  "sha256": {
+    "bootloader.bin": "d1b84d7b6db541e7f3a162167dd927b253a18fbb0008946a0eb36224d4507d4b",
+    "partition-table.bin": "5e71c3c890e04714daa03b21a0d23953a2dadf9fdf15eec02b886f7b6e9f8c81",
+    "rlcd_hardware_test.bin": "0f8467e6cb20f6865b45e2d2bcf839270629c33d27015e3381f556dbff4b450f",
+    "rlcd-hardware-test-v0.2.0-merged.bin": "b2cd4f31856d9b79d096c957f11bdb738fc02e884282ef793d6e32b790ef4d63"
+  }
+}
